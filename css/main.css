@@ -307,7 +307,7 @@ section.hero .inner-hero {
     position: relative;
 }
 .main-nav li a:hover{
-    color: #00afc5;
+    color: #3376cc;
 }
 .hero-content {
     position: relative;
@@ -326,7 +326,7 @@ section.hero .inner-hero {
 }
 
 h1.large {
-    color: #033954;
+    color: #3376cc;
     font-size: 28px;
     font-weight: 700;
     text-transform: none;
