@@ -232,7 +232,9 @@ em {
 strong {
     font-weight: 600;
     /* color: #ffffff; */
-    font-size: 28px;
+}
+.about strong {
+    font-size: 48px;
 }
 p strong,
 li strong {
@@ -262,9 +264,13 @@ p:last-child {
 }
 .title {
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 600;
+    letter-spacing: 2px;
     font-family: 'source-han-serif-tc';
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media only screen and (max-width: 767px) {
     .title {
@@ -273,33 +279,18 @@ p:last-child {
     } 
 }
 .sub-title-0 {
-    font-size: 27px;
-    font-weight: 300;
+    font-size: 32px;
+    /* font-weight: 300; */
     text-transform: none;
 }
-.sub-title-1 {
-    font-size: 25px;
-    font-weight: 300;
-    text-transform: none;
-}
-.sub-title-2 {
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: none;
-}
-.sub-title-3 {
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: none;
-    color: #cccccc;
-}
+
 .gradient-text {
-    background: -webkit-linear-gradient(left, #399bff 30%, rgba(238, 113, 249, .9) 65%);
-    background: -moz-linear-gradient(left, #399bff 30%, rgba(238, 113, 249, .9) 65%);
-    background: linear-gradient(left, #399bff 30%, rgba(238, 113, 249, .9) 65%);
+    background: -webkit-linear-gradient(left, #3376cc 30%, #6666cc 65%);
+    background: -moz-linear-gradient(left, #3376cc 30%, #6666cc 65%);
+    background: linear-gradient(left, #3376cc 30%, #6666cc 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #399bff;
+    color: #3376cc;
 }
 p.title-lead {
     font-size: 18px;
@@ -479,35 +470,35 @@ a.link:after,
 .but,
 span a:after,
 p a:after {
-    background: rgb(57, 155, 255);
+    background: #3376cc;
     /* Old browsers */
-    
-    background: -moz-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, #3376cc 0%, #6666cc 100%);
     /* FF3.6-15 */
     
-    background: -webkit-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
+    background: -webkit-linear-gradient(45deg, #3376cc 0%, #6666cc 100%);
     /* Chrome10-25,Safari5.1-6 */
     
-    background: linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
+    background: linear-gradient(45deg, #3376cc 0%, #6666cc 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#399bff', endColorstr='#ee71f9', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#399bff', endColorstr='#6666cc', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
     transition: .3s;
 }
 
 .but:hover{
     background: rgb(57, 155, 255);
-    background: -moz-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(57, 155, 255, 1) 100%);
+    background: -moz-linear-gradient(45deg, #85b2ed 0%, #3376cc 100%);
     /* FF3.6-15 */
     
-    background: -webkit-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(57, 155, 255, 1) 100%);
+    background: -webkit-linear-gradient(45deg, #85b2ed 0%, #3376cc 100%);
     /* Chrome10-25,Safari5.1-6 */
     
-    background: linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(57, 155, 255, 1) 100%);
+    background: linear-gradient(45deg, #85b2ed 0%, #3376cc 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#399bff', endColorstr='#399bff', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#85b2ed', endColorstr='#3376cc', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
     transition: .3s;
 }
