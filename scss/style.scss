@@ -247,8 +247,17 @@ body {
         color:#fff;
         font-size: 22px;
     }
+    .podcast-block {
+        padding:0 30px;
+    }
+    .block-img {
+        height: 320px;
+    }
     .background-img {
-        border-radius: 25px;
+        img {
+            border-radius: 50px;  
+        }
+        border-radius: 50px;
     }
     .title {
         color: #ccd1e4;
@@ -279,7 +288,7 @@ footer{
             display: block;
             max-width: 1150px;
             margin: 0 auto;
-            padding-bottom: 20px;
+            // padding-bottom: 20px;
             line-height: 2;
             font-size:14px;
             .footer_info_contents {
