@@ -136,8 +136,6 @@ section.hero {
     overflow: hidden;
     width: 100%;
     height: 100vh;
-
-
     background-origin: padding-box;
     background-position: 50% 50%;
     background-repeat: repeat;
@@ -148,7 +146,12 @@ section.hero {
 section.single-hero {
     min-height: 400px;
 }
-
+@media only screen and (max-width: 767px) { 
+    section.hero {
+        background-size: cover ;
+        background-image: url(../img/op-bg-mb.jpg);
+    }
+}
 
 .background-img {
     width: 100%;
@@ -237,6 +240,14 @@ section.hero .inner-hero {
 .header .logo img {
     padding: 5px 0;
     width: auto;
+}
+@media only screen and (max-width: 767px) { 
+    .header {
+        background-color: rgb(255 255 255 / 100%);
+    }
+    .header .logo img {
+        width: 130px;
+    }
 }
 .mobile-but {
     display: inline-block;
@@ -1439,7 +1450,7 @@ select.error {
         padding-top: 0;
         padding-bottom: 30px;
         font-size: 18px;
-        font-weight: 300;
+        /* font-weight: 300; */
     }
     .main-nav li:first-child a {
         padding-top: 10px;
