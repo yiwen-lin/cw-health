@@ -138,7 +138,16 @@ a.link:hover:after {
         font-weight: 500;
     }
 }
-.accom {
+p.txt-p {
+    font-size:15px;
+    text-align: justify;
+}
+
+//accom 
+#accom {
+    background-image: linear-gradient(260deg,#a1b6e8 0%, #ccd1e4 50%, #e2dce2 100%);
+}
+.accom  {
     .topic-block {
         margin: auto;
     }
@@ -163,15 +172,6 @@ a.link:hover:after {
         background: rgb(57, 155, 255);
         color: #fff ;
     }
-}
-
-p.txt-p {
-    font-size:15px;
-    text-align: justify;
-}
-
-//accom 
-.accom  {
     .sub-title-2 {
         text-align: justify;
         font-size:22px;
@@ -192,6 +192,12 @@ p.txt-p {
             }
         }
 }
+@media only screen and (max-width: 767px) {
+    .mb-bottom-block {
+        margin-bottom:60px;
+    }
+}
+
 a:hover {
     .gradient-text {
         background:#0f4191 ;
@@ -244,6 +250,11 @@ a:hover {
     }
     .title {
         color: #ccd1e4;
+    }
+    @media only screen and (max-width: 767px) {
+        .podcast-block+.podcast-block{
+            margin-top:60px;
+        }
     }
 }
 //site
