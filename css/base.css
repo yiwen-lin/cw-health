@@ -236,6 +236,12 @@ strong {
 .about strong {
     font-size: 48px;
 }
+.about strong span {
+    font-size: 20px;
+}
+a p {
+    color:#000;
+}
 p strong,
 li strong {
     /* color: #ffffff; */
@@ -260,7 +266,7 @@ blockquote {
     /* font-weight: 300; */
 }
 p:last-child {
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
 }
 .title {
     color: #0f4191;
@@ -291,10 +297,11 @@ p:last-child {
     background: linear-gradient(left, #3376cc 30%, #6666cc 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #3376cc;
+    /* transition: 0.3s; */
 }
+
 p.title-lead {
-    font-size: 18px;
+    font-size: .18px;
 }
 p.title-lead span {
     display: block;

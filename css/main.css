@@ -353,6 +353,7 @@ h1.large {
 }
 .block-info-1 span {
     font-size: 20px;
+    
 }
 @media only screen and (max-width: 767px) { 
     .block-info-ticket {
