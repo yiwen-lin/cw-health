@@ -14,7 +14,6 @@ body {
     width: 100%;
     z-index: -1;
 }
-
 // Scrolling end
 
 //op
@@ -220,7 +219,9 @@ a:hover {
 //podcast
 .podcast {
     // background-image: linear-gradient(120deg,#6666cc 0%,  #3376cc 100%);
-    background-image: url('../../img/podcast-bg.jpg');
+    // background-image: url('../../img/podcast-bg.jpg');
+    background-image: url('../img/podcast-bg.jpg');
+
     color:#fff;
     h4 {
         color:#abb1ca; 
