@@ -125,6 +125,9 @@
     margin: 0 auto;
     /* max-width: 1600px; */
 }
+.wrapper .logo-ul li {
+    display: inline-block;
+}
 /*End site wrapper*/
 
 
@@ -240,13 +243,14 @@ section.hero .inner-hero {
 .header .logo img {
     padding: 5px 0;
     width: auto;
+    height: 47px;
 }
 @media only screen and (max-width: 767px) { 
     .header {
         background-color: rgb(255 255 255 / 100%);
     }
     .header .logo img {
-        width: 130px;
+        height: 40px;
     }
 }
 .mobile-but {
@@ -851,7 +855,7 @@ select.error {
 
 .block-spon img {
     /* opacity: .2; */
-    width: 80%;
+    width: 70%;
     margin-top: 20px;
 }
 /* .block-spon img:hover {
