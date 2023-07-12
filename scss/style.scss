@@ -96,6 +96,10 @@ body {
     a:hover:after, span a:hover:after {
         opacity: 0;
     }
+    h6 {
+        font-size: 13px;
+        font-weight: 300;
+    }
     
 }
 a.link:hover:after {
@@ -104,6 +108,8 @@ a.link:hover:after {
 
 //topics
 .topics {
+    background: url(../img/bg-2.png) center no-repeat;
+    background-size: cover;
     .topic-block {
         margin: auto;   
     }
@@ -260,6 +266,13 @@ a:hover {
 }
 //site
 .site {
+    background: url(../img/bg1.png) center no-repeat;
+    background-size: cover;
+    @media only screen and (max-width: 767px) {
+        background: url(../img/bg1-mb.png) center no-repeat;
+        background-size: cover;
+        // padding-bottom: 0;
+    }
     a {
         display: block;
     }

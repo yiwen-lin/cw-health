@@ -84,11 +84,19 @@ body:before {
 .about a:hover:after, .about span a:hover:after {
   opacity: 0;
 }
+.about h6 {
+  font-size: 13px;
+  font-weight: 300;
+}
 
 a.link:hover:after {
   opacity: 0;
 }
 
+.topics {
+  background: url(../img/bg-2.png) center no-repeat;
+  background-size: cover;
+}
 .topics .topic-block {
   margin: auto;
 }
@@ -237,6 +245,16 @@ a:hover .gradient-text {
   }
 }
 
+.site {
+  background: url(../img/bg1.png) center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+  .site {
+    background: url(../img/bg1-mb.png) center no-repeat;
+    background-size: cover;
+  }
+}
 .site a {
   display: block;
 }
