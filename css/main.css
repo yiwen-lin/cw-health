@@ -853,10 +853,12 @@ select.error {
 
 /* Sponsors section*/
 
-.block-spon img {
-    /* opacity: .2; */
-    width: 70%;
-    margin-top: 20px;
+.block-spon {
+    width: 12%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
 }
 /* .block-spon img:hover {
     opacity: .4;
@@ -1522,10 +1524,6 @@ select.error {
     .block-tab {
         margin-top: 0px;
     }
-    .block-spon img {
-        width: 50%;
-        margin-bottom: 20px;
-    }
     .block-map {
         /* display: none; */
         width: 100%;
@@ -1552,6 +1550,11 @@ select.error {
     .insta-Feed li:before,
     .insta-Feed li a:before {
         content: none;
+    }
+
+    .block-spon {
+        width: 29%;
+        margin: 0 6px 0px;
     }
 }
 /*End media queries*/
